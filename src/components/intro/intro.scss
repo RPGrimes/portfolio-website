@@ -3,17 +3,20 @@
 .intro{
   background-color: $mainTextColor;
   display: flex;
+  color: $mainBackgroundColor;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
   
-
-
   a{
-    color: $mainBackgroundColor;
     text-decoration: none;
+    color: inherit;
   }
 
-  .githubIcon{
+  .icon{
     color: $mainBackgroundColor;
-    font-size: 72px;
+    font-size: 100px;
   }
 }
 
