@@ -1,3 +1,19 @@
+@import "../../global.scss";
+
 .intro{
-  background-color: #116466;
+  background-color: $mainTextColor;
+  display: flex;
+  
+
+
+  a{
+    color: $mainBackgroundColor;
+    text-decoration: none;
+  }
+
+  .githubIcon{
+    color: $mainBackgroundColor;
+    font-size: 72px;
+  }
 }
+
