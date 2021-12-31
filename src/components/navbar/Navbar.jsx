@@ -1,21 +1,24 @@
 import "./navbar.scss"
 import {FaceOutlined} from "@material-ui/icons"
 
-export default function Navbar() {
+export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className="navbar">
+    <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
           <h1 className="name"><FaceOutlined className='icon'/> Ryan Grimes</h1>
-          <h3><a href="#intro" className="logo">Intro</a></h3>
-          <h3><a href="#portfolio" className="logo">Porfolio</a></h3>
-          <h3><a href="#contact" className="logo">Contact</a></h3>
-        <div className="itemContainer">
-          <span>123456</span>
+          <div className="itemContainer">
+           <span></span>
+          </div>
         </div>
+        <div className="right">
+          <div className="hamburger" onClick={()=>setMenuOpen(!menuOpen)}>
+            <span className="line1"></span>
+            <span className="line2"></span>
+            <span className="line3"></span>
+          </div>
         </div>
-        <div className='right'></div>
       </div>
     </div>
-  )
+  );
 }
