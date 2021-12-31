@@ -19,15 +19,41 @@
   .left{
     display: flex;
     align-items: center;
+    margin-right: 40px;
 
-    .logo{
-      font-size: 40px;
-      font-weight: 700;
-      text-decoration: none;
-      color: inherit;
-      margin-right: 40px;
+    .icon{
+      color: #D1e8E2;
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+      font-size: 30px;
     }
 
+    .name{
+      color: #D1e8E2;
+      display: flex;
+      align-items: center;
+      margin-right: 60px;
+      font-weight: 300;
+    }
+
+    .logo{
+      // font-size: 40px;
+      font-weight: 500;
+      text-decoration: none;
+      color: inherit;
+      margin-right: 30px;
+      margin-left: 30px;
+      display: flex;
+      align-items: center;
+    }
+
+    .itemContainer{
+      display: flex;
+      align-items: center;
+      margin-left: 30px;
+
+    }
 
   }
 }
