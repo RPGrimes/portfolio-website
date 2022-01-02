@@ -1,30 +1,41 @@
 @import "../../global.scss";
 
 .intro{
-  background-color: $mainLightColor;
-  display: flex;
-  color: $mainDarkColor;
+  background-color: $mainDarkColor;
+  color: $mainLightColor;
   display: flex;
   flex-direction: column;
   text-align: center;
   
   h1{
-    padding: 10px;
+    padding: 5px;
   }
 
   a{
     text-decoration: none;
     color: inherit;
-  }
 
-  .profiles{
-    .p{
-      font-size: 60px;
+    &:hover{
+      background: #2CA58D;
     }
   }
-  .icon{
-    color: $mainDarkColor;
-    font-size: 60px;
+
+  .profile{
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+    margin: 20px;
+    border-radius: 7%;
+
+    .icon{
+      color: $mainLightColor;
+      font-size: 60px;
+    }
+
+    &:hover{
+    background: #2CA58D;
+    }
+
   }
 
   .skills{
@@ -33,14 +44,14 @@
     overflow: hidden;
 
     .bio{
-      margin-top: 10px;
+      margin-top: 80px;
       margin-bottom: 10px;
     }
 
     #about{
       width: 80%;
       margin-left: 10%;
-      color: $mainDarkColor;
+      color: $mainLightColor;
       h4{
         padding: 5px;
         margin: 5px;
@@ -57,21 +68,24 @@
         margin: 5px;
         border-style: solid;
         border-radius: 15%;
+        border-color: #2CA58D;
         background-color: $mainDarkColor;
         color: $mainLightColor;
       }
 
       img{
-        width: 15%;
+        width: 50px;
         height: auto;
         padding: 10px;
+        align-items: center;
+
+        
+        &:hover{
+          background: #2CA58D;
+        }
       }
     }
 
-  }
-
-  .profiles{
-    flex: 20%;
-    background-color: inherit;
+  
   }
 }
