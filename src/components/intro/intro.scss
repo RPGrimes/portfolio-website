@@ -9,7 +9,7 @@
   text-align: center;
   
   h1{
-    padding: 20px;
+    padding: 10px;
   }
 
   a{
@@ -17,28 +17,52 @@
     color: inherit;
   }
 
+  .profiles{
+    .p{
+      font-size: 60px;
+    }
+  }
   .icon{
     color: $mainDarkColor;
-    font-size: 100px;
+    font-size: 60px;
   }
 
   .skills{
-    flex: 66.66%;
-    background-color:orange;
+    flex: 80%;
+    background-color:inherit;
     overflow: hidden;
 
+    .bio{
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    #about{
+      width: 80%;
+      margin-left: 10%;
+      color: $mainDarkColor;
+      h4{
+        padding: 5px;
+        margin: 5px;
+      }
+    }
+
     .imgContainer{
-      width: 10%;
+      width: 40%;
       height: 100%;
+      margin-left: auto;
+      margin-right: auto;
 
       .logo{
         margin: 5px;
         border-style: solid;
-        border-radius: 10%;
+        border-radius: 15%;
+        background-color: $mainDarkColor;
+        color: $mainLightColor;
       }
 
       img{
-        width: 100%;
+        width: 15%;
         height: auto;
         padding: 10px;
       }
@@ -47,8 +71,7 @@
   }
 
   .profiles{
-    flex: 33.33%;
-    background-color: green;
+    flex: 20%;
+    background-color: inherit;
   }
 }
-
