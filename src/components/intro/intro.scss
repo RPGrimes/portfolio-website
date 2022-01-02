@@ -44,7 +44,7 @@
     overflow: hidden;
 
     .bio{
-      margin-top: 80px;
+      margin-top: 0px;
       margin-bottom: 10px;
     }
 
@@ -52,9 +52,9 @@
       width: 80%;
       margin-left: 10%;
       color: $mainLightColor;
-      h4{
+      p{
         padding: 5px;
-        margin: 5px;
+        margin: 10px;
       }
     }
 
