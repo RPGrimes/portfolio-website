@@ -3,8 +3,8 @@
 .navbar{
   width: 100%;
   height: 70px;
-  background-color:$mainBackgroundColor;
-  color: $mainTextColor;
+  background-color:$mainDarkColor;
+  color: $mainLightColor;
   position: fixed;
   top: 0;
   z-index: 3;
@@ -67,7 +67,7 @@
         span{
           width: 100%;
           height: 3px;
-          background-color: $mainTextColor;
+          background-color: $mainLightColor;
           transform-origin: left;
           transition: all 1.0s ease;
         }
@@ -80,14 +80,14 @@
     .hamburger{
       span{
         &:first-child{
-          background-color: $mainTextColor;
+          background-color: $mainLightColor;
           transform: rotate(45deg)
         }
         &:nth-child(2){
           opacity: 0;
         }
         &:last-child{
-          background: $mainTextColor;
+          background: $mainLightColor;
           transform: rotate(-45deg)
         }
       }
