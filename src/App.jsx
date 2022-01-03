@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
+import About from "./components/about/About";
 import Menu from "./components/menu/Menu";
 import CV from "./components/CV/CV";
 import Contact from "./components/contact/Contact";
@@ -17,6 +18,7 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className="sections">
         <Intro/>
+        <About/>
         <Portfolio/>
         <CV/>
         <Contact/>
