@@ -25,7 +25,6 @@ export default function Intro() {
           <LinkedInIcon className="icon" />
           <p>My LinkedIn</p></a>
         </div>
-        
       </div>
     </div>
   )
