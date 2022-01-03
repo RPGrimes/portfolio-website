@@ -8,7 +8,7 @@ export default function Intro() {
       <div className="skills">
 
         <div className="bio" id="hello">
-          <h1>Hello, my name is Ryan! I'm a full stack web developer.</h1>
+          <h2>Hello, my name is</h2><h1> Ryan!</h1><h2>I'm a full stack web developer.</h2>
         </div>
 
         <div className="bio" id="about">
@@ -71,11 +71,15 @@ export default function Intro() {
 
       <div className='profiles'>
         <div className="profile">
-          <p><GitHubIcon className="icon"/><a href="https://github.com/RPGrimes">My Github</a></p>
+        <a href="https://github.com/RPGrimes">
+          <GitHubIcon className="icon"/>
+          <p>My Github</p></a>
         </div>
 
         <div className="profile">
-          <p><LinkedInIcon className="icon"/><a href="https://www.linkedin.com/in/ryanpgrimes/">My LinkedIn</a></p>
+        <a href="https://www.linkedin.com/in/ryanpgrimes/">
+          <LinkedInIcon className="icon" />
+          <p>My LinkedIn</p></a>
         </div>
         
       </div>

@@ -6,10 +6,12 @@ import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
 import "./app.scss"
 import { useState } from "react";
+import ParticleBackground from "./components/particleBackground";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
+    <div className="particle-background"><ParticleBackground/>
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
@@ -19,6 +21,7 @@ function App() {
         <CV/>
         <Contact/>
       </div>
+    </div>
     </div>
   );
 }
