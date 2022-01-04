@@ -12,19 +12,22 @@ import ParticleBackground from "./components/particleBackground";
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <div className="particle-background"><ParticleBackground/>
-    <div className="app">
-      <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      <div className="sections">
-        <Intro/>
-        <About/>
-        <Portfolio/>
-        <CV/>
-        <Contact/>
+    <>
+      <div className="app">
+        <div className="body-particles">
+          <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+          <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
+          <div className="sections">
+            <Intro/>
+            <About/>
+            <Portfolio/>
+            <CV/>
+            <Contact/>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
+      <div className="particle-background"><ParticleBackground/></div>
+    </>
   );
 }
 

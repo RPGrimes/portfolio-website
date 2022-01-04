@@ -1,7 +1,6 @@
 @import "../../global.scss";
 
 .about{
-  background-color: $mainDarkColor;
   color: $mainLightColor;
   display: flex;
   flex-direction: column;
@@ -58,6 +57,9 @@
         border-color: #2CA58D;
         background-color: $mainDarkColor;
         color: $mainLightColor;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
       }
 
       img{

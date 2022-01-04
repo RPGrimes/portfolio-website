@@ -1,10 +1,8 @@
-// export default function setMenu({props, setMenuOpen}) {
-//   return (
-//     <div className="setMenu" id="setMenu">
-//       <li onClick={()=>setMenuOpen(false)}>
-//         <a href={`#${props.page}`}>text</a>
-//       </li>;
-//     </div>
-//   )
-// }
+export default function SetMenu(props) {
+  return (
+      <li onClick={()=>props.setMenuOpen(false)}>
+        <a href={`${props.page}`}>{props.sectionName}</a>
+      </li>
+  )
+}
 

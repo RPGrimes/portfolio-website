@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .intro{
-  background-color: $mainDarkColor;
+  background-color: transparent;
   color: $mainLightColor;
   display: flex;
   flex-direction: column;
@@ -10,6 +10,18 @@
   
   h1{
     padding: 5px;
+    font-size: 50px;
+    font-weight: 500;
+  }
+
+  h2{
+    font-size: 36px;
+    font-weight: 200;
+  }
+
+  h3{
+    font-size: 24px;
+    font-weight: 200;
   }
 
   a{
