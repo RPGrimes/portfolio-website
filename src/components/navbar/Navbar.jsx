@@ -6,7 +6,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
     <div className={"navbar " + (menuOpen && "active")}>
       <div className="wrapper">
         <div className="left">
-          <h1 className="name"><FaceOutlined className='icon'/> Ryan Grimes</h1>
+          <p className="name"><FaceOutlined className='icon'/> Ryan Grimes</p>
           <div className="itemContainer">
            <span></span>
           </div>
