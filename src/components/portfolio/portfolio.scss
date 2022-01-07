@@ -1,5 +1,16 @@
 @import "../../global.scss";
 
 .portfolio{
-  color: $mainLightColor
+  color: $mainLightColor;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+
+  .title{
+    font-size: 4vh;
+    font-weight: 600;
+    margin-bottom: 1vh;
+  }
+  
 }

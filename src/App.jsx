@@ -2,7 +2,6 @@ import Navbar from "./components/navbar/Navbar";
 import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import Menu from "./components/menu/Menu";
-import CV from "./components/CV/CV";
 import Contact from "./components/contact/Contact";
 import Portfolio from "./components/portfolio/Portfolio";
 import "./app.scss"
@@ -21,7 +20,6 @@ function App() {
             <Intro/>
             <About/>
             <Portfolio/>
-            <CV/>
             <Contact/>
           </div>
         </div>

@@ -10,7 +10,7 @@ html,body{
 
   .body-particles{
     position: absolute;
-    width: 100%;
+    width: 110vw;
     top: 0;
     left: 0;
     z-index: 100;
@@ -29,10 +29,10 @@ html,body{
 
   .sections{
     width: 100%;
-    height: calc(100vh - 70px);
-    // background-color: $mainLightColor;
+    height: calc(100vh - 8vh);
+
     position: relative;
-    top: 70px;
+    top: 8vh;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     scrollbar-width: none; //for firefox
@@ -43,7 +43,7 @@ html,body{
 
     > *{
       width: 100vw;
-      height: calc(100vh - 70px);
+      height: calc(100vh);
       scroll-snap-align: start;
     }
   }

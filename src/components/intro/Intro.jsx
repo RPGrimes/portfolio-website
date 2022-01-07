@@ -1,6 +1,7 @@
 import "./intro.scss"
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import SchoolIcon from '@mui/icons-material/School';
 
 export default function Intro() {
   return (
@@ -21,6 +22,12 @@ export default function Intro() {
         </div>
 
         <div className="profile">
+        <a href="https://docs.google.com/presentation/d/1-uBieG_R5u-NvwhT7xLpx46s4v4jCQUqwHug0It2erc/edit#slide=id.p">
+          <SchoolIcon className="icon"/>
+          <p>My CV</p></a>
+        </div>
+
+        <div className="profile">
         <a href="https://www.linkedin.com/in/ryanpgrimes/">
           <LinkedInIcon className="icon" />
           <p>My LinkedIn</p></a>
@@ -31,7 +38,8 @@ export default function Intro() {
       <div className="arrow">
         <a href="#about">
           <img src="assets/whitearrow.png" alt="down-arrow"/>
-        </a> 
+        <p>Click to enter site</p>
+        </a>
       </div>
       
     </div>

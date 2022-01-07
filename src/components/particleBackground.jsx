@@ -34,17 +34,17 @@ const ParticleBackground = () => {
             enable: true,
             area: 1080,
           },
-          value: 200,
+          value: 400,
         },
         opacity: {
           value: 1,
         },
         shape: {
-          type: "square",
+          type: "circle",
         },
         size: {
           random: true,
-          value: 0.8,
+          value: 0.5,
         },
       },
     }}
