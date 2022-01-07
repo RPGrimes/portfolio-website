@@ -1,6 +1,4 @@
 import "./about.scss"
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 export default function About() {
   return (
