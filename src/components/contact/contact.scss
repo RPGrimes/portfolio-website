@@ -4,6 +4,7 @@
   color: $mainLightColor;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   text-align: center;
 
   .title{
@@ -13,4 +14,68 @@
     text-decoration: underline;
     text-decoration-color: #f05f95;
   }
+
+  .emailForm{
+
+    form{
+      width: 100vw;
+      height: 30vw;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+
+      input{
+        width: 35vw;
+        height: 4vh;
+        font-size: 2.5vh;
+        background-color: $mainLightColor;
+        border-radius: 10px;
+
+        &:hover{
+          background-color: white;
+        }
+      }
+
+      textarea{
+        width: 35vw;
+        height: 40vh;
+        font-size: 2.5vh;
+        background-color: $mainLightColor;
+        border-radius: 10px;
+
+        &:hover{
+          background-color: white;
+        }
+      }
+
+      button{
+        width: 150px;
+        height: 30px;
+        color: $mainDarkColor;
+        background-color:$mainLightColor;
+        border: none;
+        border-radius: 15px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 1s ease;
+
+        &:hover{
+          background-color: #2CA58D;
+          color: $mainLightColor;
+        }
+
+        &:focus{
+          outline: none;
+        }
+      }
+
+      span{
+        color: $mainLightColor;
+        font-size: 4vh;
+        font-weight: 600;
+      }
+    }
+  }
+
 }
