@@ -7,7 +7,6 @@ html,body{
 .app{
   height: 100vh;
 
-
   .body-particles{
     position: absolute;
     width: 110vw;
@@ -20,7 +19,7 @@ html,body{
     width: 100%;
     height: 100%;
     position: fixed;
-    opacity: 0.95;
+    opacity: 1;
     background-color: $mainDarkColor;
     background-size: cover;
     background-position: 50% 50%;
@@ -30,11 +29,11 @@ html,body{
   .sections{
     width: 100%;
     height: calc(100vh - 8vh);
-
+    margin-top: 10vh;
     position: relative;
     top: 8vh;
     scroll-behavior: smooth;
-    scroll-snap-type: y mandatory;
+    // scroll-snap-type: y mandatory;
     scrollbar-width: none; //for firefox
     &::-webkit-scrollbar{
       display: none;

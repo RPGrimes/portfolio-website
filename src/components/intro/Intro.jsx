@@ -11,8 +11,10 @@ export default function Intro() {
 
   useEffect(()=>{
     init(textRef.current, {
-      showCursor: false,
-      typeSpeed: 100,
+      showCursor: true,
+      typeSpeed: 80,
+      backSpeed: 40,
+      backDelay: 2000,
       strings: ["Welcome to my website!", "I am a full stack web developer."],
     });
   },[]);

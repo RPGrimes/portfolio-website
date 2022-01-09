@@ -44,7 +44,7 @@ const ParticleBackground = () => {
         },
         size: {
           random: true,
-          value: 0.5,
+          value: 1.2,
         },
       },
     }}
