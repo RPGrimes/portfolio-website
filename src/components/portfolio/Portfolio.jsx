@@ -13,7 +13,7 @@ export default function Portfolio() {
               <a className='projectLink' target="_blank" href="https://github.com/RPGrimes">
                 {/* LINK ABOVE NEEDS UPDATING */}
                 <figure className="projectGif" id="acebook">
-                  <img src="assets/acebook.gif" alt="Acebook"/> <h5>Bank Tech Test</h5>
+                  <img src="assets/acebook.gif" alt="Acebook"/> <h5>Acebook</h5>
                 </figure>
               </a> 
               <div className="projectInfo">
