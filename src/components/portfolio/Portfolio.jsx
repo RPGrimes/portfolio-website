@@ -13,7 +13,7 @@ export default function Portfolio() {
               <a className='projectLink' target="_blank" href="https://github.com/RPGrimes">
                 {/* LINK ABOVE NEEDS UPDATING */}
                 <figure className="projectGif" id="acebook">
-                  <img src="assets/acebook.gif" alt="Acebook"/>
+                  <img src="assets/acebook.gif" alt="Acebook"/> <h5>Bank Tech Test</h5>
                 </figure>
               </a> 
               <div className="projectInfo">
@@ -36,14 +36,14 @@ export default function Portfolio() {
                 </div>
               <a className='projectLink' target="_blank" href="https://github.com/RPGrimes/news-summary-challenge">
                 <figure className="projectGif" id="newsApp">
-                  <img src="assets/GibraltarNewsApp.gif" alt="Gibraltar News App"/>
+                  <img src="assets/GibraltarNewsApp.gif" alt="Gibraltar News App"/> <h5>Gibraltar News App</h5>
                 </figure>
               </a> 
             </li>
             <li className='project' id='bankTechTestSection'>
               <a className='projectLink' target="_blank" href="https://github.com/RPGrimes/bankTechTest">
                 <figure className="projectGif" id="bankTechTest">
-                  <img src="assets/bankTechTest.gif" alt="bankTechTest"/>
+                  <img src="assets/bankTechTest.gif" alt="bankTechTest"/> <h5>Bank Tech Test</h5>
                 </figure>
               </a> 
               <div className="projectInfo">
