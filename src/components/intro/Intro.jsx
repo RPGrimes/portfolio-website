@@ -38,7 +38,7 @@ export default function Intro() {
         </div>
 
         <div className="profile" id="CV">
-        <a href="https://docs.google.com/presentation/d/1-uBieG_R5u-NvwhT7xLpx46s4v4jCQUqwHug0It2erc/edit#slide=id.p">
+        <a href="assets/RyanGrimesCV.pdf">
           <SchoolIcon className="icon"/>
           <p>My CV</p></a>
         </div>
@@ -49,7 +49,6 @@ export default function Intro() {
           <p>My LinkedIn</p></a>
         </div>
       </div>
-
 
       <div className="arrow">
         <a href="#about">
