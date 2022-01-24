@@ -4,7 +4,7 @@ import * as emailjs from "emailjs-com";
 
 export default function Contact() {
 
-  const { register, watch, errors } = useForm();
+  const { register } = useForm();
 
   const handleSubmit = (e) => {
       e.preventDefault();
