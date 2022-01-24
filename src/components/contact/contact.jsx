@@ -2,14 +2,15 @@ import "./contact.scss"
 import { useForm } from 'react-hook-form';
 import React from 'react';
 import * as emailjs from "emailjs-com";
+require('dotenv').config()
 
 export default function Contact() {
 
-  const { register, handleSubmit, watch, errors } = useForm();
+  const { register, watch, errors } = useForm();
   
   // const onSubmit = data => console.log(data)
 
-  const onSubmit = (e) => {
+  const handleSubmit = (e) => {
       //prevents the page from reloading after submission of the form
       e.preventDefault();
 
@@ -39,10 +40,17 @@ export default function Contact() {
         <p>Contact Me!</p>
       </div>
       <div className="emailForm">
-      <form id='contact-form' onSubmit={handleSubmit(onSubmit)}>
+      <form id='contact-form' onSubmit={handleSubmit}>
         <input type='userEmail' name="userEmail" {...register("userEmail", {required: true})} placeholder='Email' maxLength='80' required/>
         <textarea name='userMessage' {...register("userMessage")} placeholder="Message" maxLength='1000' required></textarea>
           <button type='submit'>Send</button>
+          <script
+            type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+          ></script>
+          <script type="text/javascript">
+            (function() {emailjs.init(process.env.REACT_APP_USER_ID)})();
+          </script>
         </form>
       </div>
     </div>
