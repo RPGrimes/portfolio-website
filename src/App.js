@@ -3,7 +3,7 @@ import Intro from "./components/intro/Intro";
 import About from "./components/about/About";
 import Menu from "./components/menu/Menu";
 import Portfolio from "./components/portfolio/Portfolio";
-import Contact from "./components/contact/Contact";
+import Contact from "./Contact";
 import "./app.scss"
 import { useState } from "react";
 import ParticleBackground from "./components/particleBackground";
