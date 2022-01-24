@@ -36,10 +36,10 @@ export default function About() {
               <img src="assets/ruby-logo.png" alt="Ruby"/>
             </a>
             <a href="https://rubyonrails.org/">
-              <img src="assets/railslogo.png" alt="Rails"/>
+              <img src="assets/Railslogo.png" alt="Rails"/>
             </a>
             <a href="http://sinatrarb.com/">
-              <img src="assets/sinatra.png" alt="Sinatra"/>
+              <img src="assets/Sinatra.png" alt="Sinatra"/>
             </a>
             <a href="https://rspec.info/">
               <img src="assets/rspec-logo.png" alt="RSpec"/>
@@ -52,7 +52,7 @@ export default function About() {
               <img src="assets/gitlogo.png" alt="Git"/>
             </a>
             <a href="https://html.spec.whatwg.org/multipage/">
-              <img src="assets/htmllogo.png" alt="HTML"/>
+              <img src="assets/HTMLlogo.png" alt="HTML"/>
             </a>
             <a href="https://www.w3.org/Style/CSS/">
               <img src="assets/csslogo.png" alt="CSS"/>
