@@ -30,7 +30,6 @@ export default function Contact() {
         e.target.reset();
     };
 
-
   return (
     <div className="contact" id="contact">
       <div className="title">
