@@ -15,7 +15,7 @@ export default function Portfolio() {
                 <p className="tools">Tools: React JS, Express Node JS, Jest, SCSS, Vercel (front-end), Heroku (back-end)</p>
                 <br></br>
                 <p>This application helps to organize a meetup of friends by choosing a date for them based on the whole group’s availability and preferences, 
-                  all while maintaining individuals’ privacy and not storing any user data.</p>
+                  all while maintaining individuals’ privacy and not storing any user data. </p>
                 </div>
               <a className='projectLink' target="_blank" href="https://github.com/RPGrimes/heyday">
                 <figure className="projectGif" id="heyday">
@@ -31,11 +31,11 @@ export default function Portfolio() {
               </a> 
               <div className="projectInfo">
                 <h2>Acebook</h2>
-                <p className="tools">Tools: Rails, RSpec, Capybara, PostgreSQL, Bootstrap CSS, Heroku</p>
+                <p className="tools">Tools: Rails, RSpec, Capybara, PostgreSQL, Bootstrap CSS, Heroku </p>
                 <br></br>
                 <p>This is a clone of Facebook, build over the space of a week during Makers Academy. The project allows users to post on a communal wall, like and comment on posts, allows users to remove their own likes and comments and includes a chatroom feature.
                   We used Ruby On Rails as our web framework, and hosted the application on Heroku. 
-                  This project features all the CRUD operations.</p>
+                  This project features all the CRUD operations. </p>
               </div>
             </li>
             <li className='project' id="newsroom">
