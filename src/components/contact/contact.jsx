@@ -10,10 +10,10 @@ export default function Contact() {
       e.preventDefault();
       emailjs
         .sendForm(
-          process.env.REACT_APP_SERVICE_ID, 
-          process.env.REACT_APP_TEMPLATE_ID,
+          'service_c7b4zra', 
+          'template_ugo6pje',
           e.target,
-          process.env.REACT_APP_USER_ID
+          'user_0R4pq21tsStNeVXZXYv6H'
         )
         .then(
           (result) => {
