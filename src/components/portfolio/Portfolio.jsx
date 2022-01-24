@@ -9,16 +9,29 @@ export default function Portfolio() {
       <div className='container'>
         <div className='projectWrapper'>
           <ul className='allProjects'>
+          <li className='project' id="heyday">
+            <div className="projectInfo">
+              <h2>Heyday</h2>
+                <p className="tools">Tools: React JS, Express Node JS, Jest, SCSS, Vercel (front-end), Heroku (back-end)</p>
+                <br></br>
+                <p>This application helps to organize a meetup of friends by choosing a date for them based on the whole group’s availability and preferences, 
+                  all while maintaining individuals’ privacy and not storing any user data.</p>
+                </div>
+              <a className='projectLink' target="_blank" href="https://github.com/RPGrimes/heyday">
+                <figure className="projectGif" id="heyday">
+                  <img src="assets/HeydayVideo.gif" alt="HeydayVideo"/> <h5>Heyday</h5>
+                </figure>
+              </a> 
+            </li>
             <li className='project' id='acebookProject'>
-              <a className='projectLink' target="_blank" href="https://github.com/RPGrimes">
-                {/* LINK ABOVE NEEDS UPDATING */}
+              <a className='projectLink' target="_blank" href="https://github.com/RPGrimes/Acebook">
                 <figure className="projectGif" id="acebook">
                   <img src="assets/acebook.gif" alt="Acebook"/> <h5>Acebook</h5>
                 </figure>
               </a> 
               <div className="projectInfo">
                 <h2>Acebook</h2>
-                <p className="tools">Tools: Rails, RSpec, Capybara, PostgreSQL, Heroku</p>
+                <p className="tools">Tools: Rails, RSpec, Capybara, PostgreSQL, Bootstrap CSS, Heroku</p>
                 <br></br>
                 <p>This is a clone of Facebook, build over the space of a week during Makers Academy. The project allows users to post on a communal wall, like and comment on posts, allows users to remove their own likes and comments and includes a chatroom feature.
                   We used Ruby On Rails as our web framework, and hosted the application on Heroku. 
@@ -28,7 +41,7 @@ export default function Portfolio() {
             <li className='project' id="newsroom">
             <div className="projectInfo">
               <h2>Gibraltar News Summary</h2>
-                <p className="tools">Tools: Vanilla JS, Guardian API</p>
+                <p className="tools">Tools: Vanilla JS, Guardian API, CSS </p>
                 <br></br>
                 <p>A single page web app which reads and summarises cryptocurrency news from the Guardian API. 
                   The application makes a request to the API and sends a response back to my client with the latest stories 

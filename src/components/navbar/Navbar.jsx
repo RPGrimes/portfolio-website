@@ -8,7 +8,7 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className="left">
           <p className="name"><FaceOutlined className='icon'/> Ryan Grimes</p>
           <div className="itemContainer">
-           <span></span>
+            <span></span>
           </div>
         </div>
         <div className="right">

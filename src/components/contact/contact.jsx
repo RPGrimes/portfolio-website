@@ -1,4 +1,5 @@
 import "./contact.scss"
+import { useForm } from 'react-hook-form';
 
 export default function Contact() {
 
@@ -8,12 +9,10 @@ export default function Contact() {
         <p>Contact Me!</p>
       </div>
       <div className="emailForm">
-        {/* <form onSubmit={handleSubmit}> */}
         <form>
-          <input type='text' placeholder='Email'/>
+          <input type='email' name="userEmail" placeholder='Email'/>
           <textarea placeholder="Message"></textarea>
           <button type='submit'>Send</button>
-          {/* {message && <span>Thank you for your message! I will reply as soon as possible.</span>} */}
         </form>
       </div>
     </div>
