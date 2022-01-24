@@ -24,7 +24,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="particle-background"><ParticleBackground/></div>
+      {/* <div className="particle-background"><ParticleBackground/></div> */}
     </>
   );
 }
