@@ -7,9 +7,7 @@ export default function Contact() {
   const { register, watch, errors } = useForm();
 
   const handleSubmit = (e) => {
-
       e.preventDefault();
-
       emailjs
         .sendForm(
           process.env.REACT_APP_SERVICE_ID, 
@@ -25,7 +23,6 @@ export default function Contact() {
             alert("An error occurred, Please try again", error.text);
           }
         )
-
         e.target.reset();
     };
 
