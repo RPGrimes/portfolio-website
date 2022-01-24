@@ -1,6 +1,5 @@
 import "./contact.scss"
 import { useForm } from 'react-hook-form';
-import React from 'react';
 import * as emailjs from "emailjs-com";
 
 export default function Contact() {
