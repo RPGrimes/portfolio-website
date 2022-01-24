@@ -2,16 +2,13 @@ import "./contact.scss"
 import { useForm } from 'react-hook-form';
 import React from 'react';
 import * as emailjs from "emailjs-com";
-require('dotenv').config()
 
 export default function Contact() {
 
   const { register, watch, errors } = useForm();
-  
-  // const onSubmit = data => console.log(data)
 
   const handleSubmit = (e) => {
-      //prevents the page from reloading after submission of the form
+
       e.preventDefault();
 
       emailjs
@@ -29,7 +26,7 @@ export default function Contact() {
             alert("An error occurred, Please try again", error.text);
           }
         )
-        //clears the form after sending the email
+
         e.target.reset();
     };
 
