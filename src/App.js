@@ -12,7 +12,7 @@ function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <>
-      <div className="app" styles={{ backgroundImage:`url(${background})` }}>
+      <div className="app">
         <div className="body-particles">
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
