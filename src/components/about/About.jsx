@@ -9,7 +9,7 @@ export default function About() {
       <div className="about-me">
         <div className="bio" id="about">
           <p>I am a full stack web developer looking to join a team in a positive and supportive environment where principles such as TDD are followed and where a growth mindset is encouraged.</p>
-          <p>I am full committed to the philosophy of life-long learning.</p>
+          <p>I am fully committed to the philosophy of life-long learning.</p>
           <p>The unique blend of creativity, logic, technology and an almost unlimited scope to develop and learn drives my fascination and passion for web development.</p>
           <p>When I'm not at my computer, I enjoy spending my time playing sports, indulging in new cuisines and enjoying my PlayStation!</p>
         </div>

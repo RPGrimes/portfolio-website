@@ -6,13 +6,13 @@ import Contact from "./contact";
 import Portfolio from "./components/portfolio/Portfolio";
 import "./app.scss"
 import { useState } from "react";
-import ParticleBackground from "./components/particleBackground";
+// import ParticleBackground from "./components/particleBackground";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
     <>
-      <div className="app">
+      <div className="app" styles={{ backgroundImage:`url(${background})` }}>
         <div className="body-particles">
           <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
           <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
